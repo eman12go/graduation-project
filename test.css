@@ -1,0 +1,17 @@
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.ans{
+    display:inline-block;
+    width:80%;
+}
+.dropdown{
+    border: 1px solid rgb(58, 58, 84);
+    border-radius: 48px;
+}
+.dropdown img{
+    border-radius: 48px;
+    width: 40px;
+}

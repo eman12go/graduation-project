@@ -1,0 +1,227 @@
+.joinBtn {
+  width: 600px;
+  position: relative;
+  top: 30px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.log-btn {
+  text-align: center;
+  width: 200px;
+  position: relative;
+  margin-left: 280px;
+}
+.r-slide {
+  background: #0053cb;
+}
+.l-slide {
+  top: 316px;
+  width: 604px;
+  height: 375px;
+  position: relative;
+  margin: 58px;
+}
+.txt-des {
+  /* We will send a massage to your email inbox with a link to rest your password */
+
+  position: static;
+  width: 540px;
+  height: 44px;
+  left: 0px;
+  top: 33px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 1.4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0em;
+}
+
+.fo-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 314px;
+  height: 88px;
+  left: 139px;
+  /* top: 888px; 80px  */
+
+  margin: 80px 0px;
+}
+.fo-div p {
+  position: static;
+  width: 144px;
+  height: 24px;
+  left: 85px;
+  top: 0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+col-6 {
+  height: 100%;
+}
+.fo-div button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9.79722px 16.3287px;
+
+  position: relative;
+  width: 314px;
+  height: 48px;
+  /* left: 0px; */
+  top: 16px;
+  letter-spacing: 1px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 6.53148px;
+  margin: auto;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 80%;
+  margin: 0;
+}
+
+.carousel-item svg {
+  display: block;
+  width: 80%;
+  /* height: 50%; */
+  object-fit: cover;
+  margin-left: 34px;
+}
+
+.carousel-item p {
+  position: static;
+  width: 468px;
+  height: 90px;
+  left: 0px;
+  top: 622px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 148.02%;
+  /* or 30px */
+  text-align: center;
+}
+.modal-footer {
+  height: 90px;
+  width: 325px;
+  margin: 32px;
+  align-items: center;
+  top: 41%;
+  position: absolute;
+  justify-content: center;
+  padding: 3.75rem;
+  border: none;
+}
+.modal-header {
+  border: none;
+}
+.modal-header svg {
+  height: 50px;
+  width: 50px;
+  color: #27af60;
+  text-align: center;
+  top: 32px;
+  position: absolute;
+  /* text-align: center; */
+  left: 168px;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 359px;
+  width: 389px;
+  border-radius: 0.6rem;
+  border: none;
+  font-weight: bold;
+  font-family: Inter;
+  font-style: normal;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+/* Reset your password */
+.l-slide h3 {
+  position: static;
+  width: 194px;
+  height: 29px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  display: flex;
+  align-items: center;
+
+  color: #0053cb;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+/*
+.carousel-indicators {
+  position: static;
+  width: 96px;
+  height: 16px;
+  margin: auto;
+  top: 682px;
+  /* background: #ffffff;
+  background: #074399; 
+}*/
+.carousel-indicators [data-bs-target] {
+  border-radius: 100%;
+  height: 16px;
+  width: 16px;
+  /* opacity: 0.19; */
+  margin-inline: 16px;
+}
